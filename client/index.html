@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <!-- <script>var myApp = angular.module("myApp", []);</script> -->
+  <!-- myApp SHOULD BE DEFINED IN THE FIRST SCRIPE ACCESSED!!! -->
+  <script src= "angular/angular.js"></script>
+  <script src= "angular-route/angular-route.js"></script>
+  <script src="js/config.js"></script>
+  <script src= "js/factory.js"></script>
+  <script src= "js/controller.js"></script>
+  <!-- must be in this order: config, factory, controller -->
+</head>
+<body>
+
+  <a href="#/orders">Orders</a> | <a href="#/customers">Customers</a>
+
+  {{'hello world'}}
+  <div ng-view="">
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,23 @@
+{
+  "name": "orders_and_customers",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Ethan Choi <dchoi33@yahoo.com>"
+  ],
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.2",
+    "angular": "^1.5.2",
+    "angular-route": "^1.5.2"
+  }
+}
